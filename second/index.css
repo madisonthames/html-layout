@@ -1,73 +1,60 @@
-body {
-    margin: 20px;
-    background-color: white;
-    width: 100%;
-    height: 100%;
+.row {
+    display: flex;
+    margin: 25px;
+    padding: 10px;
+    border: black solid 4px;
 }
 
-.top-block {
-    width: 94%;
-    height: 225px;
-    background-color: white;
-    border: black solid 5px;
+.row.dotted {
+    border: black dotted 3px;
 }
 
-.first-inside {
-    width: 5vw;
-    height: 145px;
-    margin-left: 10px;
-    margin-top: 70px;
+.purple-block {
+    align-self: flex-end;
+    width: 50px;
+    height: 130px;
     background-color: rgb(134, 35, 201);
 }
 
-.second-inside {
+.green-rectangle {
+    margin-left: 50px;
     width: 350px;
     height: 175px;
-    margin: 0 50px;
-    display: inline-block;
     background-color: rgb(27, 131, 49);
 }
 
-.third-inside {
-    height: 215px;
-    width: 215px;
+.blue-circle {
+    margin-left: 50px;
+    height: 175px;
+    width: 175px;
     border-radius: 50%;
     background-color: rgb(114, 200, 235);
-    display: inline-block;
 }
 
-.middle-block { 
-    width: 94%;
-    height: 280px;
-    background-color: white;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border: black dotted 5px;
-}
-
-.inner-block {
-  width: 85vw;
-  height: 200px;
-  margin-left: 38px;
-  margin-top: 38px;
+.yellow-rectangle {
+  margin: 25px;
+  width: 100%;
+  height: 150px;
   background-color: rgb(247, 242, 199);
   box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.75);
 }
 
-.bottom-block {
-    width: 50%;
-    height: 325px;
-    background-color: white;
+.row.text {
+    align-items: center;
+    justify-content: center;
     margin: auto;
-    border: 1px solid rgb(221, 209, 209);
-    box-shadow: 3px 3px 5px 0px rgba(53, 49, 49, 0.25);
+    width: 50%;
+    height: 250px;
+    border: rgba(224, 219, 219, 0.979) solid 1px;
+    color: rgb(42, 21, 99);
+    box-shadow: 3px 3px 0px 0px  rgba(224, 219, 219, 0.979) ;
 }
 
-.bottom-block h1 {
-    width: 80%;
-    margin-top: 100px;
-    margin-left: 50px;
+h1 {
+    line-height: 25px;
+    font-size: 20px;
     text-align: center;
-    color: rgb(42, 21, 99);
+    font-weight: bold;
     letter-spacing: 10px;
-}
+    color: rgb(21, 21, 104);
+}   

@@ -1,0 +1,39 @@
+.row1 {
+display: flex;
+margin: 0px;
+background-color: rgba(224, 224, 224, 0.89)
+}
+
+.blue-square {
+margin: 10px;
+margin-left: 15px;
+height: 70px;
+width: 70px;
+background-color: rgb(26, 126, 207);
+}
+
+.row.text {
+    align-items: center;
+    margin: 50px;
+    box-sizing: border-box;
+    }
+
+.row2 {
+    height: 90px;
+    background-color: rgb(26, 126, 207);
+    }
+
+.row3 {        
+    height: 90px;
+    background-color: rgba(37, 219, 174, 0.89)
+    }
+
+.row4 {        
+    height: 90px;
+    background-color: rgba(176, 228, 135, 0.89)
+    }
+
+.row5 {        
+    height: 90px;
+    background-color: rgba(230, 226, 36, 0.89)
+    }
